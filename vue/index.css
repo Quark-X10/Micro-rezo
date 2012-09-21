@@ -1,0 +1,82 @@
+body{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+#	background-image: url(../vue/background.jpg);
+#	background-color: black;
+	background-position: center;
+}
+fieldset{
+	background-color: rgba(255,255,255,0.85);
+}
+legend{
+	background-color: rgba(255,255,255,0.85);
+}
+table{
+    border-collapse: collapse;
+    width: 100%
+}
+td, th{
+    border: 1px solid black;
+    text-align: center;
+}
+th{
+	background-color: rgba(255,255,255,0.85);
+	font-variant: small-caps;
+}
+.reparation{
+	cursor: hand;
+	background-color: rgba(255,255,255,0.85);
+}
+.reparation:hover{
+	color: white;
+	background-color: blue;
+}
+.reparation-urgente{
+	background-color: rgba(255,0,0,0.85);
+	cursor: hand;
+}
+.reparation-urgente:hover{
+	color: white;
+	background-color: blue;
+}
+.reparation-diag-urgent{
+	background-color: rgba(255,0,255,0.85);
+	cursor: hand;
+}
+.reparation-diag-urgent:hover{
+	color: white;
+	background-color: blue;
+}
+.reparation-en-cours{
+	background-color: rgba(255,190,0,0.85);
+	cursor: hand;
+}
+.reparation-en-cours:hover{
+	color: white;
+	background-color: blue;
+}
+.reparation-terminee{
+	background-color: rgba(0,255,0,0.85);
+	cursor: hand;
+}
+.reparation-terminee:hover{
+	color: white;
+	background-color: blue;
+}
+.nav{
+	float: right;
+}
+.recherche_client{
+	display: inline-block;
+}
+.ligne{
+	border-bottom: 1px solid black;
+}
+.resultat_client{
+	background-color: rgba(255,255,255,0.85);
+	border-bottom: 1px solid black;
+}
+.informations_client{
+	margin-left: 25px;
+	margin-bottom: 2px;
+}

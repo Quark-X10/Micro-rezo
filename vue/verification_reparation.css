@@ -1,0 +1,11 @@
+body{
+	width: 100%;
+}
+.reparation_bdd{
+	float: left;
+	width: 50%;
+}
+.reparation_modifiee{
+	float: left;
+	width: 50%;
+}

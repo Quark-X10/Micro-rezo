@@ -1,0 +1,41 @@
+body{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+#	background-image: url(../vue/background.jpg);
+#	background-color: black;
+	background-position: center;
+}
+fieldset{
+	background-color: rgba(255,255,255,0.85);
+}
+legend{
+	background-color: rgba(255,255,255,0.85);
+}
+textarea{
+	vertical-align: middle;
+}
+label{
+	display: inline-block;
+	vertical-align: middle;
+}
+.description_panne{
+	float: left;
+}
+.documents{
+	margin-left: 10px;
+	float: left;
+}
+.priorite{
+	margin-left: 10px;
+	float: left;
+}
+.clear{
+	clear: both;
+}
+.diagnostic{
+	float: left;
+}
+.reparation_proposee{
+	margin-left: 10px;
+	float: left;
+}

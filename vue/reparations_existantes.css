@@ -1,0 +1,10 @@
+body{
+	width: 100%;
+}
+.reparation_bdd{
+	float: left;
+	width: 50%;
+}
+.reparation_ajoutee{
+	overflow: auto;
+}

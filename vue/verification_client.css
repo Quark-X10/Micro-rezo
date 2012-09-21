@@ -1,0 +1,11 @@
+body{
+	width: 100%;
+}
+.client_bdd{
+	float: left;
+	width: 50%;
+}
+.client_modifie{
+	width: 50%;
+	overflow: auto;
+}
