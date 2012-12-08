@@ -4,7 +4,7 @@ function connection_bdd(){
 	$bdd = NULL;
 	try
 	{
-		$bdd = new PDO('mysql:host=localhost;dbname=reparation_is_back2', 'micro-rezo', 'micro-rezo');
+		$bdd = new PDO('mysql:host=localhost;dbname=***', '***', '***');
 	}
 	catch (Exception $e)
 	{
