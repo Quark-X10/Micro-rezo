@@ -28,7 +28,7 @@ tete("Vérification",$styles,NULL);
 				<p class="priorite">
 					Priorité : <br />
 					<input type="radio" name="priorite" id="normal" value="Normal" <?php echo ($donnees_en_bdd['priorite'] == "Normal") ? 'checked' : ''; ?> disabled/><label for="normal">Normal</label>
-					<input type="radio" name="priorite" id="SAV" value="SAV" <?php echo ($donnees_en_bdd['prioritel'] == "SAV") ? 'checked' : ''; ?> disabled/><label for="SAV">SAV</label>
+					<input type="radio" name="priorite" id="SAV" value="SAV" <?php echo ($donnees_en_bdd['priorite'] == "SAV") ? 'checked' : ''; ?> disabled/><label for="SAV">SAV</label>
 					<input type="radio" name="priorite" id="urgence" value="Urgence" <?php echo ($donnees_en_bdd['priorite'] == "Urgence") ? 'checked' : ''; ?> disabled/><label for="urgence">Urgence</label>
 					<input type="radio" name="priorite" id="diag-urgent" value="Diag urgent" <?php echo ($donnees_en_bdd['priorite'] == "Diag urgent") ? 'checked' : ''; ?>/><label for="diag-urgent">Diag Urgent</label><br /><br />
 					<input type="checkbox" name="sacoche" id="sacoche" <?php echo ($donnees_en_bdd['sacoche'] == 1) ? 'checked' : ''; ?> disabled/>
@@ -104,7 +104,7 @@ tete("Vérification",$styles,NULL);
 				<p class="priorite">
 					Priorité : <br />
 					<input type="radio" name="priorite" id="normal" value="Normal" <?php echo ($donnees['priorite'] == "Normal") ? 'checked' : ''; ?> /><label for="normal">Normal</label>
-					<input type="radio" name="priorite" id="SAV" value="SAV" <?php echo ($donnees_en_bdd['priorite'] == "SAV") ? 'checked' : ''; ?> /><label for="SAV">SAV</label>
+					<input type="radio" name="priorite" id="SAV" value="SAV" <?php echo ($donnees['priorite'] == "SAV") ? 'checked' : ''; ?> /><label for="SAV">SAV</label>
 					<input type="radio" name="priorite" id="urgence" value="Urgence" <?php echo ($donnees['priorite'] == "Urgence") ? 'checked' : ''; ?> /><label for="urgence">Urgence</label>
 					<input type="radio" name="priorite" id="diag-urgent" value="Diag urgent" <?php echo ($donnees['priorite'] == "Diag urgent") ? 'checked' : ''; ?>/><label for="diag-urgent">Diag Urgent</label><br /><br />
 					<input type="checkbox" name="sacoche" id="sacoche" <?php echo ($donnees['sacoche'] == 1) ? 'checked' : ''; ?>/>
